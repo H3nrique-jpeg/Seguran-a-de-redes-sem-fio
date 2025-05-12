@@ -1,2 +1,2 @@
 # Seguran-a-de-redes-sem-fio
-Abacate
+O objetivo do repositorio é armazenar o codigo site  a editição do codigo em conjunto 
