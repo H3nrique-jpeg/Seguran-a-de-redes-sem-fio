@@ -1,71 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Segurança em redes sem fio</title>
+    <title>Segurança em Redes Sem Fio</title>
     <style>
-        li{
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul {
+            padding: 0;
+            margin: 20px 0;
+        }
+
+        nav li {
             list-style: none;
-        display:inline;
-         
-            
+            display: inline;
         }
-        div{
-           display: flex;
-            justify-content: center;
-        }
-        a{
+
+        nav a {
             text-decoration: none;
             color: black;
-            padding: 10px;
+            padding: 10px 15px;
             background-color: grey;
-            margin: 5px; 
+            margin: 5px;
+            border-radius: 5px;
         }
-        a:hover{
+
+        nav a:hover {
             text-decoration: underline;
             background-color: black;
             color: white;
-            padding: 10px;
-        }
-        title{
-            display:flex;
-            justify-content:center ;
         }
 
+        section {
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: auto;
+            text-align: left;
+        }
 
+        h1 {
+            text-align: center;
+            margin-top: 40px;
+        }
     </style>
 </head>
+
 <body>
-    <h1>Segurança em redes de sem fio</h1>
-    <div id="menu">
+    <h1>Segurança em Redes Sem Fio</h1>
+
+    <nav>
         <ul>
-            <li><a href="#Mecanismo">Mecanismo de Segurança</a></li>
-            <li><a href="#redesm">Redes móveis</a></li>
-            <li><a href="#riscos">Riscos da rede sem fio</a></li>
-            <li><a href="#ataque">Ferramentas de ataque e tecnicas</a></li>
-            <li><a href="#defesa">Defesa da rede</a></li>
-            <li><a href="#casos">Casos</a></li>
+            <li><a href="#mecanismo">Mecanismos de Segurança</a></li>
+            <li><a href="#redes-moveis">Redes Móveis</a></li>
+            <li><a href="#riscos">Riscos das Redes Sem Fio</a></li>
+            <li><a href="#ataques">Ataques e Técnicas</a></li>
+            <li><a href="#defesa">Defesa das Redes</a></li>
+            <li><a href="#casos">Casos Famosos</a></li>
         </ul>
-    </div>
-    <div id="Mecanismo">
-        <h1> Quais são os mecanismo de segurança das redes sem fio?</h1>
-        <p></p>
-    </div>
-    <div id="redesm">
-        <h1>O que é são redes móveis</h1>
-    </div>
-    <div id="riscos">
-        <h1>quais são os riscos de utilizar redes sem fio</h1>
-    </div>
-    <div id="ataque">
-        <h1>como ocorre os ataques nas redes sem fio</h1>
-    </div>
-    <div id="defesa">
-        <h1>como é a defesa das redes sem fio?</h1> 
-    </div>
-    <div id="casos">
-        <h1>quais foram os casos mais famosos sobre esse tema</h1>
-    </div>
+    </nav>
+
+    <section id="mecanismo">
+        <h2>Quais são os mecanismos de segurança das redes sem fio?</h2>
+        <p>Conteúdo explicando os principais mecanismos como WPA2, WPA3, criptografia, autenticação etc.</p>
+    </section>
+
+    <section id="redes-moveis">
+        <h2>O que são redes móveis?</h2>
+        <p>Explicação sobre redes móveis, como funcionam e sua relação com redes sem fio.</p>
+    </section>
+
+    <section id="riscos">
+        <h2>Quais são os riscos de utilizar redes sem fio?</h2>
+        <p>Lista e explicação dos principais riscos como invasões, vazamento de dados, redes falsas etc.</p>
+    </section>
+
+    <section id="ataques">
+        <h2>Como ocorrem os ataques nas redes sem fio?</h2>
+        <p>Descrição de ferramentas e técnicas de ataque como sniffing, spoofing, man-in-the-middle, etc.</p>
+    </section>
+
+    <section id="defesa">
+        <h2>Como é feita a defesa das redes sem fio?</h2>
+        <p>Boas práticas, ferramentas e protocolos utilizados na proteção de redes sem fio.</p>
+    </section>
+
+    <section id="casos">
+        <h2>Quais foram os casos mais famosos sobre esse tema?</h2>
+        <p>Exemplos de incidentes reais envolvendo falhas de segurança em redes sem fio.</p>
+    </section>
 </body>
+
 </html>
